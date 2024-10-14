@@ -1,0 +1,13 @@
+prefix=B:/placement course/web development/python/yttranscript/venv/Library
+exec_prefix=B:/placement course/web development/python/yttranscript/venv/Library
+libdir=B:/placement course/web development/python/yttranscript/venv/Library/lib
+sharedlibdir=B:/placement course/web development/python/yttranscript/venv/Library/lib
+includedir=B:/placement course/web development/python/yttranscript/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
